@@ -7,7 +7,7 @@ import pyjokes
 import os
 import sys
 
-# Initialize speech engine
+# Initialize speech engine voice
 engine = pyttsx3.init()
 engine.setProperty('rate', 170)
 voices = engine.getProperty('voices')
